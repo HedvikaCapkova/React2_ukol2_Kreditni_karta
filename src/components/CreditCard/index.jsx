@@ -39,6 +39,7 @@ const CreditCard = () => {
         />
         <input
           ref={input3Ref}
+          onKeyDown={(e) => handleKeyDown(e)}
           onChange={(e) => handleInputChange(input3Ref, input4Ref, e)}
           maxLength={4}
         />

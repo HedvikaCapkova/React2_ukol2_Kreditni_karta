@@ -4,7 +4,7 @@ import './style.css';
 export const HomePage = () => {
   return (
     <div className="container">
-      <CreditCard className="item" />
+      <CreditCard />
     </div>
   );
 };

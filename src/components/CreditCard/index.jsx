@@ -26,27 +26,23 @@ const CreditCard = () => {
       <h1>Credit Card</h1>
       <div className="container">
         <input
-          className="item"
           ref={input1Ref}
           onKeyDown={(e) => handleKeyDown(e)}
           onChange={(e) => handleInputChange(input1Ref, input2Ref, e)}
           maxLength={4}
         />
         <input
-          className="item"
           ref={input2Ref}
           onKeyDown={(e) => handleKeyDown(e)}
           onChange={(e) => handleInputChange(input2Ref, input3Ref, e)}
           maxLength={4}
         />
         <input
-          className="item"
           ref={input3Ref}
           onChange={(e) => handleInputChange(input3Ref, input4Ref, e)}
           maxLength={4}
         />
         <input
-          className="item"
           ref={input4Ref}
           onKeyDown={(e) => handleKeyDown(e)}
           onChange={(e) => handleInputChange(input4Ref, null, e)}
